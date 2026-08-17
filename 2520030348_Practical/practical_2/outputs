@@ -1,1 +1,9 @@
-
+vishnupriya@LAPTOP-8D9IVC5N:~$ nano prac_2.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_2.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+file copied successfullyvishnupriya@LAPTOP-8D9IVC5N:~$ cat z6
+this is a4 file
+frcdsdsd
+gffddsss
+httffrf
+aededee
