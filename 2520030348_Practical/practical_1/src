@@ -1,1 +1,18 @@
+#include <stdio.h>
+#include <unistd.h>
+int main(){
+char command[50];
+printf("enter the linux command as input");
+scanf("%s",command);
+int pid=fork();
+if(pid>0){
+printf("parent proccess %d\n",getpid());
+printf("child proccess %d\n",pid);
 
+
+}
+if(pid==0){
+printf("child proccess %d\n",getpid());
+execlp(command,command,NULL);
+}
+}
