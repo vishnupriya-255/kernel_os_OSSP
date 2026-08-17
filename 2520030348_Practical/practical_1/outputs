@@ -1,1 +1,14 @@
-
+vishnupriya@LAPTOP-8D9IVC5N:~$ nano prac_1.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_1.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+enter the linux command as input ls
+parent proccess 631
+child proccess 632
+child proccess 632
+vishnupriya@LAPTOP-8D9IVC5N:~$ a.out     abx.c       d8    docs     f1.c         f6           linux_task4   permission_lab  prac_1.c        task5.c.save
+a4       b1          d9    ex1      f1.c.save    f7           logs          pipe10.c        readwr.c        xyz
+a6       b2          dir3  exec1.c  f1.c.save.1  f9           mvex.c        pipe11.c        src             z1
+a7       backup      dir5  exec2.c  f2.c         fork4.c      open1.c       pipe12.c        student_portal  z6
+a9.save  config      dir6  exec3.c  f3           linux_task1  open1.c.save  pipex1.c        system.log      z7
+abc      config.txt  dirz  f1       f4           linux_task2  open3.c       pipex2.c        task5.c
+^C
