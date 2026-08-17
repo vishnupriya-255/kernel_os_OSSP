@@ -1,1 +1,19 @@
+  GNU nano 8.7.1                                           skill_2.c
+#include <stdio.h>
+
+int main() {
+ char ch;
+ while (1) {
+  printf("myshell> ");
+  ch = getchar();
+  if (ch == 'e') {
+  printf("Exit\n");
+  break;
+ }
+ printf("You entered: %c\n", ch);
+ while (getchar() != '\n');
+ }
+   return 0;
+}
+
 
