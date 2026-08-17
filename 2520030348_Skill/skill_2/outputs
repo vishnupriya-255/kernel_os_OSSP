@@ -1,1 +1,6 @@
-
+      
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ nano skill_2.c
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ gcc skill_2.c
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ ./a.out
+myshell> e
+Exit
