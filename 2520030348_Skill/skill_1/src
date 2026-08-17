@@ -1,1 +1,13 @@
-
+#include <stdio.h>
+#include <unistd.h>
+int main(){
+int pid=fork();
+if(pid>0){
+printf("parent proccess %d\n",getpid());
+printf("parent parent proccess %d\n",getppid());
+}
+if(pid==0){
+printf("child proccess %d\n",getpid());
+printf(" parent proccess %d\n",getppid());
+}
+}
