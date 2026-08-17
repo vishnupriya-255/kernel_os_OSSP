@@ -1,1 +1,7 @@
-
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ nano skill_1.c
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ gcc skill_1.c
+vishnupriya@LAPTOP-8D9IVC5N:~/os_lab$ ./a.out
+parent proccess 782
+parent parent proccess 536
+child proccess 783
+ parent proccess 531
