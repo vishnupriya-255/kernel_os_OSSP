@@ -1,1 +1,9 @@
-
+moukthika@Lakshmis:~$ nano pracques-3.c
+moukthika@Lakshmis:~$ gcc pracques-3.c
+moukthika@Lakshmis:~$ ./a.out
+parent process ID: 12754
+parent's parent ID; 12754
+parent process is running
+child process ID: 12755
+child's parent ID: 12755
+child process is running
