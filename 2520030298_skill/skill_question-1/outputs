@@ -1,1 +1,9 @@
-
+moukthika@Lakshmis:~$ nano skillques-1.c
+moukthika@Lakshmis:~$ gcc skillques-1.c
+moukthika@Lakshmis:~$ ./a.out
+parent PID = 634
+parent's PID = 329
+parent process is active
+child PID = 635
+child's parent PID = 328
+child process is active
