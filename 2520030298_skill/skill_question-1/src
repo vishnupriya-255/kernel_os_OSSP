@@ -9,7 +9,7 @@ printf("parent PID = %d\n", getpid());
 printf("parent's PID = %d\n", getppid());
 printf("parent process is active\n");
 }
-else if(p == 0)
+else if(p==0)
 {
 printf("child PID = %d\n", getpid());
 printf("child's parent PID = %d\n", getppid());
