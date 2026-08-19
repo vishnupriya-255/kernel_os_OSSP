@@ -1,1 +1,11 @@
 
+moukthika@Lakshmis:~$ nano pracques-1.c
+moukthika@Lakshmis:~$
+moukthika@Lakshmis:~$ gcc pracques-1.c
+moukthika@Lakshmis:~$ ./a.out
+enter linux command as input: pwd
+parent process 530
+child process 531
+child process 531
+/home/moukthika
+child process completed
