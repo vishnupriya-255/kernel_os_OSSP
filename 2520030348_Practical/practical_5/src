@@ -1,6 +1,23 @@
 
 a.
- nano 8.7.1                                           prac_5a.c
+   GNU nano 8.7.1                                                       prac_5a.c
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <time.h>
+int main(){
+int fd[2];
+int data;
+int items;
+int start,end;
+double  timetaken;
+double efficiency;
+pipe(fd);
+start=clock();
+if(fork()==0){
+close(fd[1]);
+printf("consumer \n");
+for(int i=0;i<5;i++){
 read(fd[0],&data,sizeof(data));
 printf("consumed %d\n",data);
 }
