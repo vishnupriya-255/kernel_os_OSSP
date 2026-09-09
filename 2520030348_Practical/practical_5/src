@@ -1,27 +1,30 @@
 
 a.
  nano 8.7.1                                           prac_5a.c
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-int main() {
-    int fd[2];
-    pipe(fd);
-    if (fork() == 0) {
-        close(fd[1]);
-        char buf[100];
-        read(fd[0], buf, sizeof(buf));
-        printf("Child consumed: %s\n", buf);
-        close(fd[0]);
-        exit(0);
-    } else {
-        close(fd[0]);
-        char msg[] = "Hello from Producer!";
-        write(fd[1], msg, sizeof(msg));
-        close(fd[1]);
-    }
-
+read(fd[0],&data,sizeof(data));
+printf("consumed %d\n",data);
 }
+close(fd[0]);
+}
+else{
+close(fd[0]);
+printf("producer \n");
+for(int i=1;i<=5;i++){
+data=i*10;
+write(fd[1],&data,sizeof(data));
+printf("produced %d\n",data);
+}
+close(fd[1]);
+wait(NULL);
+end=clock();
+timetaken=(double)(end-start)/CLOCKS_PER_SEC;
+printf("communication time is %lf\n",timetaken);
+for(int i=1;i<=5;i++){
+efficiency=(double)i/timetaken;
+printf("communication efficiency  %lf\n",efficiency);}
+}
+}
+
 
 b. GNU nano 8.7.1                                           prac_5.c
 #include <unistd.h>
