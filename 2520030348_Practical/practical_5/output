@@ -1,7 +1,24 @@
 
 vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_5a.c
 vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
-Child consumed: Hello from Producer!
+producer
+produced 10
+produced 20
+produced 30
+produced 40
+produced 50
+consumer
+consumed 10
+consumed 20
+consumed 30
+consumed 40
+consumed 50
+communication time is 0.000243
+communication efficiency  4115.226337
+communication efficiency  8230.452675
+communication efficiency  12345.679012
+communication efficiency  16460.905350
+communication efficiency  20576.131687
 vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_5.c
 vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
 -rwxrwxrwx 1 vishnupriya vishnupriya     0 Jul 29 08:23 abc
