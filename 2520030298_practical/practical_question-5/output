@@ -1,1 +1,58 @@
-
+moukthika@Lakshmis:~$ nano practicalquestion5.c
+moukthika@Lakshmis:~$ gcc practicalquestion5.c
+moukthika@Lakshmis:~$ ./a.out
+producer
+produced 10
+produced 20
+produced 30
+produced 40
+produced 50
+consumer
+consumed 10
+consumed 20
+consumed 30
+consumed 40
+consumed 50
+communication time is 0.000244
+communication efficiency  4098.360656
+communication efficiency  8196.721311
+communication efficiency  12295.081967
+communication efficiency  16393.442623
+communication efficiency  20491.803279
+moukthika@Lakshmis:~$ nano practicalquestion5partb.c
+moukthika@Lakshmis:~$ gcc practicalquestion5partb.c
+moukthika@Lakshmis:~$ ./a.out
+-rw-r--r-- 1 moukthika moukthika   785 Sep  2 06:05 allsignals1.c
+-rw-r--r-- 1 moukthika moukthika   198 Sep  2 05:52 allsignals2.c
+-rw-r--r-- 1 moukthika moukthika    63 Aug 12 07:54 exec1.c
+-rw-r--r-- 1 moukthika moukthika    63 Aug 12 07:54 exec2.c
+-rw-r--r-- 1 moukthika moukthika    84 Aug 12 07:53 exec3.c
+-rw-r--r-- 1 moukthika moukthika   320 Aug 27 03:20 fifo1.c
+-rw-r--r-- 1 moukthika moukthika   403 Aug  6 04:10 fork4.c
+-rw-r--r-- 1 moukthika moukthika   253 Aug  6 03:43 mvex.c
+-rw-r--r-- 1 moukthika moukthika   227 Aug 26 08:44 namedpipe1.c
+-rw-r--r-- 1 moukthika moukthika    46 Jul 30 04:11 open1.c
+-rw-r--r-- 1 moukthika moukthika   111 Jul 30 04:20 open1.c.save
+-rw-r--r-- 1 moukthika moukthika   302 Aug  1 06:03 open3.c
+-rw-r--r-- 1 moukthika moukthika   282 Sep  9 08:03 parcticalquestion5zombie.c
+-rw-r--r-- 1 moukthika moukthika   248 Aug 12 08:13 pipe1.c
+-rw-r--r-- 1 moukthika moukthika   227 Aug 12 08:39 pipe2.c
+-rw-r--r-- 1 moukthika moukthika   273 Aug 12 05:36 pipeex2.c
+-rw-r--r-- 1 moukthika moukthika   166 Aug 12 05:29 pipex1.c
+-rw-r--r-- 1 moukthika moukthika   219 Aug 12 05:24 pipex1.cz
+-rw-r--r-- 1 moukthika moukthika   440 Aug 19 06:17 pracques-1.c
+-rw-r--r-- 1 moukthika moukthika   277 Aug 19 09:34 pracques-2.c
+-rw-r--r-- 1 moukthika moukthika   365 Aug 19 10:02 pracques-3.c
+-rw-r--r-- 1 moukthika moukthika   755 Sep  9 09:33 practicalquestion4.c
+-rw-r--r-- 1 moukthika moukthika   318 Sep  9 09:05 practicalquestion4partb.c
+-rw-r--r-- 1 moukthika moukthika   745 Sep  9 09:47 practicalquestion5.c
+-rw-r--r-- 1 moukthika moukthika   221 Sep  9 09:49 practicalquestion5partb.c
+-rw-r--r-- 1 moukthika moukthika   602 Sep  9 08:17 prodcons.c
+-rw-r--r-- 1 moukthika moukthika   601 Sep  9 08:39 prodcons.c.save
+-rw-r--r-- 1 moukthika moukthika    84 Aug  1 05:17 readwr.c
+-rw-r--r-- 1 moukthika moukthika   234 Aug 27 04:11 sender.c
+-rw-r--r-- 1 moukthika moukthika   281 Sep  2 08:30 shm1.c
+-rw-r--r-- 1 moukthika moukthika   132 Sep  2 05:38 sigint.c
+-rw-r--r-- 1 moukthika moukthika   348 Aug 19 14:08 skillques-1.c
+-rw-r--r-- 1 moukthika moukthika   238 Aug 19 14:24 skillques-2.c
+-rw-r--r-- 1 moukthika moukthika   285 Aug 12 06:35 task5.c
