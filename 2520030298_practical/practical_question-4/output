@@ -1,1 +1,24 @@
+a.
+moukthika@Lakshmis:~$ nano practicalquestion4.c
+moukthika@Lakshmis:~$ gcc practicalquestion4.c
+moukthika@Lakshmis:~$ ./a.out
+child 1 pid=1017
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
+child 2 pid=1018
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
+child 3 pid=1019
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
 
+b.
+moukthika@Lakshmis:~$ nano practicalquestion4partb.c
+moukthika@Lakshmis:~$ gcc practicalquestion4partb.c
+moukthika@Lakshmis:~$ ./a.out
+parent proccess 1106
+child proccess 1107
+parent proccess completed
