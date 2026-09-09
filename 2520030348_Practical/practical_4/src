@@ -22,8 +22,6 @@ printf("parent: all thee child are done\n");
 }
 
 
-
-
 b.
 
 #include <stdio.h>
