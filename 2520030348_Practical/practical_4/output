@@ -1,1 +1,27 @@
+a.
+vishnupriya@LAPTOP-8D9IVC5N:~$ nano prac_4.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ nano prac_4part2.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_4.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+child 1 pid=1933
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
+child 2 pid=1934
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
+child 3 pid=1935
+parent  one child is completed with wait()
+parent :child 3 has completed with waitpid()
+parent: all thee child are done
 
+
+b.
+
+
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_4part2.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+paretn proccess 1961
+child proccess 1962
+parent proccess completed
