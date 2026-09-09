@@ -1,1 +1,49 @@
 
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_5a.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+Child consumed: Hello from Producer!
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_5.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+-rwxrwxrwx 1 vishnupriya vishnupriya     0 Jul 29 08:23 abc
+-rw-r--r-- 1 vishnupriya vishnupriya   209 Aug  1 05:54 abx.c
+-rw-r--r-- 1 vishnupriya vishnupriya   134 Sep  2 05:35 allsignal.c
+drwxr-xr-x 2 vishnupriya vishnupriya  4096 Jul 30 02:58 backup
+drwxr-xr-x 2 vishnupriya vishnupriya  4096 Jul 30 02:54 config
+-rw------- 1 vishnupriya vishnupriya     0 Jul 30 02:55 config.txt
+drwxr-xr-x 2 vishnupriya vishnupriya  4096 Jul 30 02:56 docs
+-rw-r--r-- 1 vishnupriya vishnupriya    68 Sep  9 06:01 exec1.c
+-rw-r--r-- 1 vishnupriya vishnupriya    64 Aug 12 07:56 exec2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   129 Aug 12 07:54 exec3.c
+-rw-r--r-- 1 vishnupriya vishnupriya   181 Jul 29 07:08 f1.c
+-rw------- 1 vishnupriya vishnupriya    51 Jul 29 06:42 f1.c.save
+-rw-r--r-- 1 vishnupriya vishnupriya    78 Jul 29 07:00 f1.c.save.1
+-rw-r--r-- 1 vishnupriya vishnupriya    51 Jul 29 06:49 f2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   380 Aug  6 03:51 fork4.c
+-rw-r--r-- 1 vishnupriya vishnupriya   250 Aug  6 03:43 mvex.c
+-rw-r--r-- 1 vishnupriya vishnupriya   252 Jul 30 04:19 open1.c
+-rw-r--r-- 1 vishnupriya vishnupriya   248 Jul 30 04:21 open1.c.save
+-rw-r--r-- 1 vishnupriya vishnupriya   307 Aug  1 05:35 open3.c
+-rw-r--r-- 1 vishnupriya vishnupriya   225 Aug 12 08:10 pipe10.c
+-rw-r--r-- 1 vishnupriya vishnupriya   232 Aug 12 08:22 pipe11.c
+-rw-r--r-- 1 vishnupriya vishnupriya   275 Aug 26 08:36 pipe20.c
+-rw-r--r-- 1 vishnupriya vishnupriya   288 Aug 27 03:04 pipe21.c
+-rw-r--r-- 1 vishnupriya vishnupriya   222 Aug 12 05:24 pipex1.c
+-rw-r--r-- 1 vishnupriya vishnupriya   273 Aug 12 05:43 pipex2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   327 Aug 17 11:45 prac_1.c
+-rw-r--r-- 1 vishnupriya vishnupriya   244 Aug 17 12:38 prac_2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   273 Aug 17 12:53 prac_3.c
+-rw-r--r-- 1 vishnupriya vishnupriya   765 Sep  9 05:34 prac_4.c
+-rw-r--r-- 1 vishnupriya vishnupriya   321 Sep  9 05:51 prac_4part2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   224 Aug 12 08:30 prac_5.c
+-rw-r--r-- 1 vishnupriya vishnupriya   446 Sep  9 06:47 prac_5a.c
+-rw-r--r-- 1 vishnupriya vishnupriya   102 Aug  1 05:17 readwr.c
+-rw-r--r-- 1 vishnupriya vishnupriya   368 Aug 27 04:17 reciever.c
+-rw-r--r-- 1 vishnupriya vishnupriya   447 Aug 27 04:09 sender.c
+-rw-r--r-- 1 vishnupriya vishnupriya   272 Sep  2 08:24 shm1.c
+-rw-r--r-- 1 vishnupriya vishnupriya   251 Sep  2 08:28 shm2.c
+-rw-r--r-- 1 vishnupriya vishnupriya   248 Sep  2 05:30 signal.c
+-rw-r--r-- 1 vishnupriya vishnupriya   621 Sep  2 06:03 signalsall1.c
+drwxr-xr-x 2 vishnupriya vishnupriya  4096 Jul 30 02:56 src
+-rw-r--r-- 1 vishnupriya vishnupriya   307 Aug 12 06:10 task5.c
+-rw-r--r-- 1 vishnupriya vishnupriya   289 Aug 12 06:15 task5.c.save
+-rw-r--r-- 1 vishnupriya vishnupriya   258 Sep  9 05:56 zombie.c
