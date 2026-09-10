@@ -1,1 +1,13 @@
-
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_6a.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+enter message: hi
+received: hi
+server: Message processed
+vishnupriya@LAPTOP-8D9IVC5N:~$ gcc prac_6b.c
+vishnupriya@LAPTOP-8D9IVC5N:~$ ./a.out
+Process ID = 1557
+Running
+Running
+Running
+Running
+^CSignal received
